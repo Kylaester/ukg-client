@@ -1,0 +1,74 @@
+.container{
+  background-color: white;
+}
+
+.feedback{
+  padding-top: 2rem;
+  margin: 1rem;
+
+  &__header{
+    text-align: center;
+    color: #005151;
+
+  }
+
+}
+
+.image-container{
+  
+  &__pic{
+    height: 12rem;
+    margin: 2rem;
+    padding-left: 3rem;
+  }
+}
+
+
+.info2{
+
+  &__header{
+    margin: 1rem;
+  }
+}
+
+.help-header{
+  &__header{
+    font-size: 1.3rem;
+    margin: 1rem;
+    padding-left: 1rem;
+    color: #005151;
+}
+}
+
+
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  padding-left: 4rem;  
+
+  &__request{
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    margin-bottom: 1rem;
+    background-color: #30CEBB;
+    color: #FFFF;
+    width: 12rem;
+    
+
+  }
+  &__remind{
+    border: 1px solid #005151;
+    border-radius: 20px;
+    height: 40px;
+    background-color: #FFFF;
+    color:#005151;
+    width: 12rem;
+
+    
+
+  }
+
+}

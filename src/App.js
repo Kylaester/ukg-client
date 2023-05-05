@@ -1,14 +1,12 @@
 
 import Header from './components/Header/Header';
-import { BrowserRouter, Routes, Route, Router } from 'react-router-dom';
-
 // import FormOne from './components/FormOne/FormOne';
 // import Survey from './components/Survey/Survey';
 
 function App() {
   return (
     <>
-    <BrowserRouter>
+      <BrowserRouter>
     <Routes>
 
       <Route path='/' element={<HomePage/>}/>
@@ -18,8 +16,10 @@ function App() {
     </Routes>
 
     </BrowserRouter>
-    <Header/>
-   
+    {/* <Header/> */}
+      <HomePage />
+      {/* <ThankYou/> */}
+    
     </>
   );
 }
