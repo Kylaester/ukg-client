@@ -1,0 +1,8 @@
+@use '../../styles/partials/variables' as *;
+// @use '../../styles/partials/typography' as *;
+
+
+header{
+    background-color: $primary-darkteal;
+    color: $primary-white;
+}

@@ -1,0 +1,10 @@
+@use '../../styles/partials/variables' as*;
+
+.survey{
+    &__header{}
+    &__text{}
+    &__button{
+        background-color: $primary-lightteal;
+    }
+}
+
