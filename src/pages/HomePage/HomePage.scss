@@ -1,8 +1,14 @@
+.homepage{
+  padding: 1rem;
+}
+
+
 .image{
   &__homeImage{
     height: 15rem;
     margin: 2rem;
     padding-top: 2rem;
+    width: 90%;
   }
 }
 
@@ -54,6 +60,7 @@
   &__logo{
     height: 1rem;
     padding-left: 0.5rem;
+    width: 100%;
   }
 
 }

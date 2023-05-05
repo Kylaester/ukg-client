@@ -7,6 +7,8 @@ function HomePage(){
   return(
 
     <>
+    <div className='homepage'>
+
 
     <section className='image'>
       <img className='image__homeImage' src={homeImage} />
@@ -32,12 +34,13 @@ function HomePage(){
         powered by
       </p>
       <div className='footer__logo-image'>
-      <img className='footer__logo' src={UKG}></img>
+      <img className='footer__logo' src={UKG} />
 
       </div>
       </div>
 
     </footer>
+    </div>
     </>
   );
   

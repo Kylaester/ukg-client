@@ -12,12 +12,12 @@ function App() {
         <Routes>
 
           <Route path='/' element={<HomePage />} />
+          <Route path='/form'  element={<FormTwo/>}/>
           <Route path='/thankyou' element={<ThankYou />} />
 
 
         </Routes>
 
-      {/* <Header/> */}
 
     </>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "../Header/Header";
 // import validator from 'validator';
 // import InputError from '../InputError/InputError';
 // import {Link} from 'react-router-dom';
@@ -10,6 +11,8 @@ import four from "../../asset/images/icons/Circle 4.png"
 function FormOne() {
 
   return (
+    <>
+    <Header/>
     <div className='form-page-two'>
      
       <form id="entire-second-form" >
@@ -41,6 +44,8 @@ function FormOne() {
         </div>
       </form>
     </div>
+    </>
+
   );
 
 }
