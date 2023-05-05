@@ -1,6 +1,7 @@
 import Header from "./components/Header/Header";
 // import FormOne from './components/FormOne/FormOne';
 // import Survey from './components/Survey/Survey';
+import FormTwo from "./components/FormTwo/FormTwo.js";
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage/HomePage";
 import ThankYou from "./components/ThankYou/ThankYou";
