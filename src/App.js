@@ -1,4 +1,4 @@
-import './App.css';
+
 import Header from './components/Header/Header';
 import { BrowserRouter, Routes, Route, Router } from 'react-router-dom';
 
@@ -19,7 +19,6 @@ function App() {
 
     </BrowserRouter>
     <Header/>
-    {/* <Survey /> */}
    
     </>
   );
