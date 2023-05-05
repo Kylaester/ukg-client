@@ -1,6 +1,6 @@
 import './Header.scss';
-import BackArrow from '../../asset/images/icons';
-import SearchIcon from '../../asset/images/icon/searchicon.jpg';
+// import BackArrow from '../../asset/images/icons/backarrowicon';
+// import SearchIcon from '../../asset/images/icon/searchicon.jpg';
 
 
 
@@ -10,11 +10,11 @@ function Header() {
             <header>
                 <div>
                 <button>
-                    <img src={BackArrow}/>
+                    {/* <img src={BackArrow}/> */}
                 </button>
                 <h2>Monthly Survey</h2>
                 </div>
-                <img src={SearchIcon}/>
+                {/* <img src={SearchIcon}/> */}
             </header>
         </>
     );
