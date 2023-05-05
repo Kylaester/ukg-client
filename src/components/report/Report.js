@@ -8,7 +8,7 @@ function Report() {
           <p className="text-text">1</p>
         </div>
         <h2 className="radio__title">
-          How would you describe your wellbeing when you are in the workplace?
+          *How would you describe your wellbeing when you are in the workplace?
         </h2>
       </div>
       <div className="radio__container">
@@ -43,12 +43,12 @@ function Report() {
         </div>
 
         <h2 className="radio__title">
-          How would you describe your wellbeing when you are in the workplace?
+          *How would you describe your wellbeing when you are in the workplace?
         </h2>
       </div>
       <div className="textarea">
         <div className="textarea__container">
-          <input
+          <textarea
             type="text"
             className="textarea__text"
             placeholder="Input your Response..."
