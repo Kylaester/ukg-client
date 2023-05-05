@@ -1,3 +1,6 @@
+@use './variables' as *;
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -5,4 +8,21 @@
     text-decoration: none;
     list-style: none;
     border: none;
+}
+
+
+button{
+    background-color: $primary-lightteal;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    width: 10.8125rem;
+    height: 3rem;
+
+}
+button:hover{
+    background-color: $primary-eastcape;
+}
+button:active{
+    background-color: $primary-eastcape;
 }
