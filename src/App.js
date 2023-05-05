@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/Header/Header';
-// import FormOne from './components/FormOne/FormOne';
+import FormTwo from './components/FormTwo/FormTwo';
 // import Survey from './components/Survey/Survey';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <>
     <Header/>
     {/* <Survey /> */}
-   
+    <FormTwo/>
     </>
   );
 }
