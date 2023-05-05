@@ -1,28 +1,28 @@
-@use './variables' as *;
+@use "./variables" as *;
 
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    border: none;
+main {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  border: none;
 }
 
-
-button{
-    background-color: $primary-lightteal;
-    border-radius: 50px;
-    border: none;
-    color: white;
-    width: 10.8125rem;
-    height: 3rem;
-
+button {
+  background-color: $primary-lightteal;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  width: 10.8125rem;
+  height: 3rem;
 }
-button:hover{
-    background-color: $primary-eastcape;
+button:hover {
+  background-color: $primary-eastcape;
 }
-button:active{
-    background-color: $primary-eastcape;
+button:active {
+  background-color: $primary-eastcape;
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }

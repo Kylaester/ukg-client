@@ -1,74 +1,66 @@
-.container{
+.container {
   background-color: white;
 }
 
-.feedback{
+.feedback {
   padding-top: 2rem;
   margin: 1rem;
 
-  &__header{
+  &__header {
     text-align: center;
     color: #005151;
-
   }
-
 }
 
-.image-container{
-  
-  &__pic{
+.image-container {
+  &__pic {
     height: 12rem;
     margin: 2rem;
     padding-left: 3rem;
+    width: 75%;
   }
 }
 
-
-.info2{
-
-  &__header{
+.info2 {
+  &__header {
     margin: 1rem;
   }
 }
 
-.help-header{
-  &__header{
+.help-header {
+  &__header {
     font-size: 1.3rem;
     margin: 1rem;
     padding-left: 1rem;
     color: #005151;
+    margin-left: 5rem;
+  }
 }
-}
 
-
-
-.buttons{
+.buttons {
   display: flex;
   flex-direction: column;
   margin: 2rem;
-  padding-left: 4rem;  
+  padding-left: 4rem;
 
-  &__request{
+  &__request {
     border: none;
     border-radius: 20px;
     height: 40px;
     margin-bottom: 1rem;
-    background-color: #30CEBB;
-    color: #FFFF;
+    background-color: #30cebb;
+    color: #ffff;
     width: 12rem;
-    
-
   }
-  &__remind{
+  &__remind {
     border: 1px solid #005151;
     border-radius: 20px;
     height: 40px;
-    background-color: #FFFF;
-    color:#005151;
+    background-color: #ffff;
+    color: #005151;
     width: 12rem;
-
-    
-
   }
-
+}
+.info2 {
+  margin-left: 1rem;
 }
