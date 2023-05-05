@@ -1,0 +1,84 @@
+@use "../../styles/partials/variables" as *;
+// @use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/global" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'volte rounded';
+  color: $primary-darkteal;
+}
+
+.form-page-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#entire-second-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+
+  label {
+    font-size: 1.1rem;
+    display: block;
+    text-align: left;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+  }
+
+  input[type="textarea"] {
+    width: 100%;
+    padding: 15px 20px 120px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid black;
+    font-size: 12px;
+  }
+
+  .wellness-survey-section {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
+
+.form-next-button {
+  text-align: center;
+  margin-top: 1rem;
+
+  .next-button {
+    background-color: #30CEBB;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background-color:#ACEBE3;
+    }
+  }
+}
+.question-three, question-four {
+  display: flex;
+  padding-top: 20px;
+  margin: 5px;
+}
+img {
+  height: 2%;
+  width: 6%;
+  
+}

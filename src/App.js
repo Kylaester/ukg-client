@@ -1,14 +1,18 @@
-import "./App.css";
-import Report from "./components/report/Report";
 import Header from "./components/Header/Header";
 // import FormOne from './components/FormOne/FormOne';
 // import Survey from './components/Survey/Survey';
+import { Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage/HomePage";
+import ThankYou from "./components/ThankYou/ThankYou";
 
 function App() {
   return (
     <>
-      <Header />
-      <Report />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/form" element={<FormTwo />} />
+        <Route path="/thankyou" element={<ThankYou />} />
+      </Routes>
     </>
   );
 }
