@@ -1,0 +1,120 @@
+@use "../../styles/partials/variables" as *;
+
+.radio__container {
+  display: flex;
+  align-items: flex-start;
+}
+.radio__select-container {
+  display: flex;
+  flex-direction: column;
+}
+.radio {
+  display: flex;
+  align-items: center;
+
+  &__text {
+    text-align: center;
+  }
+  &__select {
+    appearance: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 0.1rem solid grey;
+    background-color: white;
+    border-radius: 50%;
+
+    &-container {
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 0.5rem;
+      margin-left: 1rem;
+    }
+  }
+  &__select:checked {
+    background-color: lightgrey;
+  }
+  &__title {
+    color: #005151;
+    font-size: 16px;
+    margin-left: 1rem;
+  }
+  &__number {
+    width: 7vw;
+    margin-top: 0.3rem;
+    &-container {
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #65caba;
+
+      width: 53px;
+      margin-bottom: 2rem;
+      height: 27px;
+    }
+  }
+}
+
+.report {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+
+  margin-left: 1.5rem;
+  &__button-container {
+    margin-left: 4rem;
+  }
+  &__button {
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    margin-bottom: 1rem;
+    background-color: #30cebb;
+    color: #ffff;
+    width: 12rem;
+    margin-top: 2.5rem;
+  }
+}
+.textarea__text {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 6rem;
+  padding-right: 7rem;
+  margin-left: 2rem;
+}
+.radio-text-container {
+  display: flex;
+}
+.radio__text-long {
+  text-align: center;
+  margin-left: 0.5rem;
+  width: 5rem;
+  margin-right: 9rem;
+}
+.radio__text-small {
+  text-align: center;
+  margin-right: 7rem;
+  width: 5rem;
+}
+
+.text-container {
+  width: 53px;
+  height: 27px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #65caba;
+  margin-bottom: 1.5rem;
+}
+.text-text {
+  font-size: 1rem;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
