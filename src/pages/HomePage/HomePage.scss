@@ -1,10 +1,9 @@
-.homepage{
+.homepage {
   padding: 1rem;
 }
 
-
-.image{
-  &__homeImage{
+.image {
+  &__homeImage {
     height: 15rem;
     margin: 2rem;
     padding-top: 2rem;
@@ -12,55 +11,53 @@
   }
 }
 
-.employee-header{
+.employee-header {
   margin-top: -4rem;
 
-  &__info{
-  text-align: center;
-  padding: 3rem;
-  color:#005151;
-  font-size: 2rem;
-}
+  &__info {
+    text-align: center;
+    padding: 3rem;
+    color: #005151;
+    font-size: 2rem;
+  }
 }
 
-.details{
+.details {
   margin-top: -2rem;
 
-  &__info{
+  &__info {
     margin: 2rem;
     text-align: center;
   }
 }
 
-
-.survey-button{
+.survey-button {
   border: none;
   border-radius: 20px;
   height: 40px;
   margin-bottom: 1rem;
-  background-color: #30CEBB;
-  color: #FFFF;
+  background-color: #30cebb;
+  color: #ffff;
   width: 12rem;
   margin-left: 5.5rem;
 }
 
-.footer{
-  &__container{
+.footer {
+  &__container {
     display: flex;
     align-items: center;
     padding-left: 8rem;
-    margin-top: 9rem;
+    margin-top: 5rem;
   }
 
-  &__text{
-    color:#005151;
-    font-size: .75rem;
+  &__text {
+    color: #005151;
+    font-size: 0.75rem;
   }
 
-  &__logo{
+  &__logo {
     height: 1rem;
     padding-left: 0.5rem;
     width: 100%;
   }
-
 }

@@ -29,13 +29,13 @@ function FormOne() {
                   type="textarea"
                   id="thoughts"
                   name="thoughts"
-                  placeholder="Type a response here..."
+                  placeholder="I would love to have more family time."
                 />
 
                 <div className="question-three">
                   <img src={four} alt="number four" />
                   <label htmlFor="wellbeing">
-                    Have you expereinces any barriers to your productivity or
+                    Have you expereinced any barriers to your productivity or
                     success in your current role?
                   </label>
                 </div>
@@ -44,7 +44,7 @@ function FormOne() {
                   type="textarea"
                   id="wellbeing"
                   name="wellbeing"
-                  placeholder="Type a response here..."
+                  placeholder="The amount of hours dedicated to a project are limited"
                 />
               </form>
             </div>

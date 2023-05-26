@@ -56,7 +56,7 @@ function Report() {
             <textarea
               type="text"
               className="textarea__text"
-              placeholder="Input your Response..."
+              placeholder="Sometimes I feel fatigued and find it hard to keep motivated."
               // value={text}
               // onChange={(event) => setText(event.target.value)}
             />
